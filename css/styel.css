@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+body { font-family: "Open Sans", sans-serif; }
+img { max-width: 100%; display: block; }
+header { background-image: url("../images/dawn.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center center; background-color: rgba(0, 0, 0, 0.376); background-blend-mode: multiply; }
+.bangla { width: 1620px; margin: auto; }
+.flex { display: flex; }
+.logo { width: 20%; }
+.logo h2 { font-size: 30px; font-weight: 800; color: white; }
+.logo h2 span { font-size: 20px; font-weight: 500; display: block; }
+nav { width: 80%; }
+nav ul { display: flex; justify-content: end; }
+nav ul li { list-style: none; }
+nav ul li a { color: white; text-decoration: none; padding: 14px; font-size: 24px; font-weight: 600; }
+.benner-content { padding: 200px 0px; text-align: center; color: whitesmoke; }
+.benner-content h3 { font-size: 38px; font-style: italic; font-weight: 600; }
+.benner-content span { height: 6px; width: 120px; background-color: rgb(251, 34, 89); display: block; margin: auto; }
+.benner-content h1 { font-size: 76px; font-weight: 600; margin: 50px; }
+.benner-content a { color: white; text-decoration: none; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; background-color: rgb(251, 34, 89); padding: 17px; border-radius: 100px; }
+.output { padding-top: 45px; color: black; font-size: 33px; text-align: center; padding-bottom: 50px; }
+.output h2 { }
+.output span { height: 6px; width: 120px; background-color: rgb(251, 34, 89); display: block; margin: auto; }
+.event { }
+.col-1-2 {padding: 70px;text-align: center;}
+.col-1-2 img {object-fit: cover;height: 490px;border-radius: 20px;box-shadow: 15px 15px 6px #808080d9;}
+.col-1-2 h2 {font-size: 37px;color: #000000c9;margin: 19px 0 0 0;}
+.col-1-2 p {font-size: 26px;font-weight: 500;}
+.col-1-2 a {text-decoration: none;color: #fb2259;letter-spacing: 3px;font-size: 25px;margin-top: 18px;display: block;}
